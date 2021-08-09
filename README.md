@@ -1,6 +1,5 @@
 # ACORN: Adaptive Coordinate Networks for Neural Scene Representation <br> SIGGRAPH 2021
 ### [Project Page](http://www.computationalimaging.org/publications/acorn/) | [Video](https://www.youtube.com/watch?v=P192X3J6cg4) | [Paper](https://arxiv.org/abs/2105.02788)
-[![Open Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/computational-imaging/automatic-integration/blob/master/acorn_example.ipynb)<br>
 PyTorch implementation of ACORN.<br>
 [ACORN: Adaptive Coordinate Networks for Neural Scene Representation](http://www.computationalimaging.org/publications/acorn/)<br>
  [Julien N. P. Martel](http://web.stanford.edu/~jnmartel/)\*,
