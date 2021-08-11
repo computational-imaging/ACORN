@@ -16,8 +16,6 @@ in SIGGRAPH 2021
 
 ## Quickstart
 
-To get started quickly, we provide a collab link above. Otherwise, you can clone this repo and follow the below instructions. 
-
 To setup a conda environment, download example training data, begin the training process, and launch Tensorboard, follow the below commands. As part of this you will also need to [register for and install an academic license](https://www.gurobi.com/downloads/free-academic-license/) for the Gurobi optimizer (this is free for academic use). 
 ```
 conda env create -f environment.yml
