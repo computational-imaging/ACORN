@@ -58,9 +58,9 @@ p.add_argument('--grayscale', action='store_true', default=False,
 # model options
 p.add_argument('--patch_size', nargs='+', type=int, default=[32],
                help='patch size.')
-p.add_argument('--hidden_features', type=int, default=4,
+p.add_argument('--hidden_features', type=int, default=512,
                help='hidden features in network')
-p.add_argument('--hidden_layers', type=int, default=512,
+p.add_argument('--hidden_layers', type=int, default=4,
                help='hidden layers in network')
 p.add_argument('--w0', type=int, default=5,
                help='w0 for the siren model.')
