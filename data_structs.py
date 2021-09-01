@@ -508,8 +508,8 @@ class Patch():
     def __getstate__(self):
         state = self.__dict__.copy()
         for k, v in self.__dict__.items():
-            # if k in self._nocopy:
-            if k not in self._pickle_vars:
+            if k in self._nocopy:
+            # if k not in self._pickle_vars:
                 del(state[k])
         return state
 
