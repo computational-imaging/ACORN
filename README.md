@@ -106,4 +106,5 @@ We include the MIT licensed `inside_mesh` code in this repo from Lars Mescheder,
 
 J.N.P. Martel was supported by a Swiss National Foundation (SNF) Fellowship (P2EZP2 181817). C.Z. Lin was supported by a David Cheriton Stanford Graduate Fellowship. G.W. was supported by an Okawa Research Grant, a Sloan Fellowship, and a PECASE by the ARO. Other funding for the project was provided by NSF (award numbers 1553333 and 1839974).
 
-
+## Errata
+- The 3D shape fitting metrics were reported in the paper as calculated using the Chamfer-L1 distance. The metric should have been labeled Chamfer-L2, which is consistent with the implementation in this repository.
