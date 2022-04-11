@@ -601,7 +601,7 @@ class Patch():
 
             if self.parent.last_updated:
                 parent_area = self.parent.block_size[0]**2
-                err_merge = parent_area * self.parent.err
+                err_merge = parent_area * self.parent.err  # can multiply by 1/4 as in paper to make merging more aggressive
         else:
             err_merge = self.err
 
@@ -1424,7 +1424,7 @@ class Octant():
 
             if self.parent.last_updated:
                 parent_area = self.parent.block_size[0]**2
-                err_merge = parent_area * self.parent.err
+                err_merge = parent_area * self.parent.err  # can multiply by 1/8 as in paper to make merging more aggressive
         else:
             err_merge = self.err
 

@@ -354,7 +354,7 @@ class Patch2DWrapperMultiscaleAdaptive(torch.utils.data.Dataset):
         patches = quadtree.get_active_patches()
         coords = torch.stack([p.block_coord for p in patches], dim=0)
         scales = torch.stack([torch.tensor(p.scale) for p in patches], dim=0)[:, None]
-        scales = 2*scales // (self.num_scales-1) - 1
+        scales = 2*scales / (self.num_scales-1) - 1
         coords = torch.cat((coords, scales), dim=-1)
 
         if self.eval:
